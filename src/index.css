@@ -1,0 +1,282 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #143cdb;
+}
+
+/* Stijlen voor navbar links met Prompt light */
+.navbar .menu-horizontal a {
+  font-family: "Prompt", sans-serif; /* Gebruik Prompt font */
+  font-weight: 300; /* Gebruik light (300) gewicht */
+}
+
+/* Aanpassingen voor grotere navbar */
+.navbar {
+  height: 100px; /* Verhoog de hoogte van de navbar */
+  padding: 0 40px; /* Voeg padding toe aan de zijkanten van de navbar */
+  display: flex;
+  align-items: center; /* Centreer items verticaal */
+}
+
+.navbar a {
+  font-size: 20px; /* Vergroot de lettergrootte van de links */
+}
+
+.navbar img {
+  height: 60px; /* Vergroot de hoogte van het logo */
+}
+
+/* styles.css */
+.containermatches {
+  border-radius: 40px; /* Pas hier de gewenste border-radius waarde aan */
+}
+
+.buttonmm {
+  font-family: "Prompt", sans-serif; /* Gebruik Prompt font */
+  font-weight: 800;
+  border-radius: 15px;
+  font-size: 1.3rem;
+}
+
+.mtext {
+  font-size: 2rem;
+  font-family: "Prompt", sans-serif; /* Gebruik Prompt font */
+  font-weight: 800;
+}
+
+.detailtijd {
+  font-family: "Prompt", sans-serif; /* Gebruik Prompt font */
+  font-weight: 800;
+  font-size: 1.2rem;
+}
+
+.detaildatum {
+  font-family: "Prompt", sans-serif; /* Gebruik Prompt font */
+  font-weight: 300;
+}
+
+.detailscore {
+  font-family: "Prompt", sans-serif; /* Gebruik Prompt font */
+  font-weight: 800;
+  font-size: 2rem;
+}
+
+.gbtijd {
+  font-family: "Prompt", sans-serif; /* Gebruik Prompt font */
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+.gbnaam {
+  font-family: "Prompt", sans-serif; /* Gebruik Prompt font */
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.events-container {
+  max-height: 85%;
+  overflow-y: scroll;
+  ms-overflow-style: none; /* Hide scrollbar in Internet Explorer and Edge */
+  scrollbar-width: none; /* Hide scrollbar in Firefox */
+}
+
+.events-container::-webkit-scrollbar {
+  display: none; /* Hide scrollbar in WebKit-based browsers (Chrome, Safari) */
+}
+
+.mdetailtext {
+  font-family: "Prompt", sans-serif; /* Gebruik Prompt font */
+  font-size: 1.1rem;
+}
+
+.standtext {
+  font-family: "Prompt", sans-serif; /* Gebruik Prompt font */
+  font-size: 1.2rem;
+}
+
+.standdiktext {
+  font-family: "Prompt", sans-serif; /* Gebruik Prompt font */
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+
+.circle-border {
+  width: 150px; /* Aanpassen naar gewenste grootte van de cirkel */
+  height: 150px; /* Aanpassen naar gewenste grootte van de cirkel */
+  border: 2px solid white; /* Witte border */
+  border-radius: 50%; /* Maakt de vorm rond (cirkel) */
+  overflow: hidden; /* Zorgt ervoor dat de afbeelding binnen de cirkel blijft */
+}
+
+.circle-border img {
+  width: 100%; /* Zorgt ervoor dat de afbeelding binnen de cirkel past */
+  height: auto; /* Behoudt de aspect ratio van de afbeelding */
+  display: block; /* Voorkomt eventuele extra ruimte onder de afbeelding */
+}
+
+.titelmtch {
+  font-family: "Prompt", sans-serif; /* Gebruik Prompt font */
+  font-size: 1.8rem;
+  font-weight: 900;
+}
+
+.naammtch {
+  font-family: "Prompt", sans-serif; /* Gebruik Prompt font */
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.scoremtch {
+  font-family: "Prompt", sans-serif; /* Gebruik Prompt font */
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+
+.datum {
+  font-family: "Prompt", sans-serif; /* Gebruik Prompt font */
+  font-size: 2.8rem;
+  font-weight: 900;
+}
+
+.maand {
+  font-family: "Prompt", sans-serif; /* Gebruik Prompt font */
+  font-size: 1.5rem;
+  font-weight: 900;
+  margin-top: -10px;
+}
+
+.containergroep {
+  height: 400px;
+  height: 260vh;
+}
+
+.maincontgroep {
+  margin-top: 100px;
+  height: 260vh;
+}
+
+.topscorerscore {
+  font-family: "Prompt", sans-serif; /* Gebruik Prompt font */
+  font-weight: 600;
+}
+
+.topscorernaam {
+  font-family: "Prompt", sans-serif; /* Gebruik Prompt font */
+  font-weight: 300;
+}
+
+.group {
+  margin-top: 50px;
+}
+
+.groottecard {
+  height: 350px;
+}
+
+.button2 {
+  margin-top: -12px;
+}
+
+.datum2 {
+  font-family: "Prompt", sans-serif; /* Gebruik Prompt font */
+  font-weight: 500;
+}
+
+.mntext {
+  font-family: "Prompt", sans-serif; /* Gebruik Prompt font */
+  font-weight: 300;
+}
+
+.mntext2 {
+  font-family: "Prompt", sans-serif; /* Gebruik Prompt font */
+  font-weight: 300;
+}
+
+@media (max-width: 1670px) {
+  /* Je CSS-regels voor schermen die precies 1670 pixels breed zijn */
+  .mbappe {
+    display: none;
+  }
+
+  .matchcontainerhome {
+    width: 100%;
+  }
+
+  .bellingham {
+    display: none;
+  }
+
+  .newscont {
+    width: 100%;
+  }
+
+  .Ronaldo {
+    display: none;
+  }
+}
+
+@media (max-width: 1360px) {
+  /* Je CSS-regels voor schermen die precies 1670 pixels breed zijn */
+  .buttonmm {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 1100px) {
+  /* Je CSS-regels voor schermen die precies 1670 pixels breed zijn */
+  .titeldatum {
+    display: none;
+  }
+
+  .containergroep {
+    height: auto;
+  }
+
+  .maincontgroep {
+    margin-top: 100px;
+    height: auto;
+  }
+
+  .rodekaart {
+    margin-bottom: 7vh;
+  }
+}
+
+@media (max-width: 750px) {
+  /* Je CSS-regels voor schermen die precies 1670 pixels breed zijn */
+  .mntext2 {
+    font-size: 0.9rem;
+  }
+
+  .doelsaldo {
+    display: none;
+  }
+}
+
+@media (max-width: 550px) {
+  /* Je CSS-regels voor schermen die precies 1670 pixels breed zijn */
+  .datum2 {
+    font-size: 0.9rem;
+  }
+
+  .mntext {
+    font-size: 0.8rem;
+  }
+
+  .mntext2 {
+    margin-left: 10px;
+  }
+}
+
+@media (max-height: 910px) {
+  /* Je CSS-regels voor schermen die precies 1670 pixels breed zijn */
+  .buttonmm {
+    margin-top: -1px;
+  }
+
+  .button2 {
+    margin-top: 25px;
+  }
+}
